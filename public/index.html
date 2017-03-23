@@ -7,7 +7,26 @@
     <link rel="stylesheet" href="/screen.css">
   </head>
   <body>
-    <h1>Hello, World!</h1>
+    <div class = "pickerbox">
+    <h1> An HSL Color Picker </h1>
+
+    <div class = "colordisplay"></div>
+
+    <div class = "button">hsla(
+      <div class = "hueValue">0</div>
+      <div class = "satValue">0</div>
+      <div class = "lightnessValue">0</div>
+      <div class = "alphaValue">0</div>
+      )
+    </div>
+
+    <div class = "sliders">
+      <input name= "hue" type= "range" min="0" max="360">
+      <input name= "saturation" type= "range" min="0" max="100">
+      <input name= "lightness" type= "range" min="0" max="100">
+      <input name= "alpha" type= "range" min="0" max="100">
+    </div>
+  </div>
     <script src="/main.js" charset="utf-8"></script>
   </body>
 </html>
